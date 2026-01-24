@@ -10,3 +10,4 @@ FROM netflix_titles.csv
 WHERE release_year BETWEEN 2005 AND 2020
 GROUP BY release_year
 ORDER BY release_year DESC;
+
