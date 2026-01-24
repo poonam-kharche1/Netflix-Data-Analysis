@@ -11,5 +11,7 @@ FROM netflix_titles.csv nt
 JOIN netflix_titles_countries.csv c ON nt.show_id = c.show_id
 GROUP BY c.country
 ORDER BY show_count DESC
-LIMIT 1;
+LIMIT 10;
+
+
 
