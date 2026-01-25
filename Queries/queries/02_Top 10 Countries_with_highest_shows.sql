@@ -6,7 +6,7 @@ SELECT
 c.country,
   COUNT(CASE WHEN nt.type = 'Movie' THEN 1 END) AS movies,
   COUNT(CASE WHEN nt.type = 'TV Show' THEN 1 END) AS tv_shows,
-COUNT(nt.show_id) AS show_count
+COUNT(nt.show_id) AS Total_show_count
 FROM netflix_titles.csv nt
 JOIN netflix_titles_countries.csv c ON nt.show_id = c.show_id
 GROUP BY c.country
