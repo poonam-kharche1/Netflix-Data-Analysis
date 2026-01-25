@@ -7,7 +7,7 @@ SELECT
   title_count
     - LAG(title_count) OVER (ORDER BY release_year) AS yoy_change
 FROM netflix_titles.csv
-WHERE release_year BETWEEN 2005 AND 2020
+WHERE release_year BETWEEN 1900 AND 2020
 GROUP BY release_year
 ORDER BY release_year DESC;
 
