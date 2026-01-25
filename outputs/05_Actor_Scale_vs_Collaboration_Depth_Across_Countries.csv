@@ -1,0 +1,21 @@
+cast_member,country,number_of_movies,distinct_directors,movies_per_director
+Kate Higgins,United States,21,12,1.75
+Erin Fitzgerald,United States,21,13,1.62
+Laura Bailey,United States,21,14,1.5
+Shah Rukh Khan,India,29,22,1.32
+Anupam Kher,India,31,24,1.29
+Om Puri,India,27,21,1.29
+Boman Irani,India,23,18,1.28
+Paresh Rawal,India,27,23,1.17
+Akshay Kumar,India,26,23,1.13
+Amitabh Bachchan,India,28,26,1.08
+Naseeruddin Shah,India,28,26,1.08
+Liev Schreiber,United States,22,21,1.05
+Kristen Bell,United States,31,31,1.0
+James Franco,United States,30,30,1.0
+Halle Berry,United States,24,24,1.0
+Radhika Apte,India,24,24,1.0
+Kareena Kapoor,India,22,22,1.0
+Alfre Woodard,United States,21,21,1.0
+Alfred Molina,United States,21,21,1.0
+Patrick Warburton,United States,20,20,1.0
