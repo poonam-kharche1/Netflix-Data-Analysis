@@ -1,3 +1,7 @@
+--- Query to find the top 3 longest movies and top 3 longest TV shows on Netflix
+-- Movies are measured in minutes, TV shows in number of seasons
+-- subqueries are used to separate the logic for movies and TV shows
+
 SELECT title, type, duration, duration_unit
 FROM (
     SELECT
